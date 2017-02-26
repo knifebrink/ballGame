@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--item name="colorPrimary">@color/colorPrimary</item-->
+        <!--item name="colorPrimaryDark">@color/colorPrimaryDark</item-->
+        <!--item name="colorAccent">@color/colorAccent</item-->
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+        <!-- 是否填充慢屏幕，引用android:windowNoTitle的值 ?android:windowNoTitle，取决于android:windowNoTitle的值-->
+    </style>
+
+</resources>

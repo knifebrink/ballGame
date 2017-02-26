@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fch.ball.LevelActivity"
+    android:background="@color/colorWhite">
+
+    <ImageButton
+        android:layout_height="80dp"
+
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:backgroundTintMode="src_in"
+        android:backgroundTint="@color/colorL"
+        android:alpha="1"
+        android:id="@+id/level2Btn"
+        android:layout_marginEnd="83dp"
+        android:layout_width="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="134dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:id="@+id/level1Btn"
+        android:backgroundTintMode="src_in"
+        android:backgroundTint="@color/colorL"
+        android:alpha="1"
+        android:layout_marginStart="98dp"
+        android:layout_alignTop="@+id/level2Btn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="模式一"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/level1Btn"
+        android:layout_alignEnd="@+id/level1Btn"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="模式二"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/level2Btn"
+        android:layout_alignEnd="@+id/level2Btn"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>

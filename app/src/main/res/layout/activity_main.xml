@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/back_2"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_weight="1.13"
+        android:background="@color/colorBitmap"/>
+
+    <Button
+        android:text="开始"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:text="关卡"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choseLevel"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:text="其他"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>

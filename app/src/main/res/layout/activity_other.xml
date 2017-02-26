@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_other"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.fch.ball.OtherActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="玩法：通过改变手机倾斜度来控制小球，别撞墙"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingStart="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="关于游戏：本游戏为初始先行版本，持续快速更新"
+        android:textSize="20dp"
+        android:paddingStart="60dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:text="关于作者：兴趣使然的程序员"
+        android:textSize="20dp"
+        android:paddingStart="60dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:text="关于建议：如有任何意见或建议请发送3495644172@qq.com"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingStart="60dp"
+        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="好"
+        android:textSize="30dp"
+        android:layout_width="120dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/back" />
+</LinearLayout>
